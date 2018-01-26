@@ -1,0 +1,35 @@
+Example of a very simple quest (see quest.qst for the source)
+
+(!%) * Review your items
+    You have nothing.
+
+(%) =* Review your items
+    You have: /%/
+    
+    (key) * Inspect the key
+        It is a big copper key.
+    
+    * Back
+        /=-/
+
+Room
+    You are in a small room. In front of you there is a table(!key) with a key on it(). And there is a mirror on a wall.
+
+    * Exit to corridor
+        /=Corridor/
+    
+    (!key) * Take the key
+        You take the key. /+key/
+
+Coridor
+    You are in the corridor. In front of you there is a heavy metal door.
+    
+    * Go back to the room
+        /=Room/
+    
+    (!key) * Open the door
+        A key is needed.
+    
+    (key) * Open the door
+        Click! The door is open. Quest complete. /=/
+

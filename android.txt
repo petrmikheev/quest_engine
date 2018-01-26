@@ -1,0 +1,3 @@
+title=QuestEngine
+author=petrmikheev
+orientation=portrait
