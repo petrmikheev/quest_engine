@@ -119,7 +119,7 @@ try:
     class Quest(App):
         def build(self):
             self.textLabel, self.scroll = None, None
-            self.font_size = 30
+            self.font_size = 20
             self.data = data = GridLayout(cols=1, size_hint=(1, None))
             data.bind(minimum_height=data.setter('height'))
             data.bind(size=self.resize)
